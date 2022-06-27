@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(32, 31, 31);
+    color: white;
+    /* align-items: center; */
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.topic {
+    padding-bottom: 70px;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    height: 66vh;
+}
+
+.display {
+    width: 100%;
+    margin: auto;
+    border: 1px solid red;
+    height: 15vh;
+    text-align: right;
+    padding-bottom: 0;
+    
+}
+
+.display h2 {
+    position: static;
+    margin-top: 10%;
+    font-size: 50px;
+    align-items: baseline;
+    vertical-align: bottom;
+}
+
+.numbercard {
+    background-color: whitesmoke;
+    border: none;
+    width: 99.3%;
+    margin: auto;
+    height: 50vh;
+    display: grid;
+    grid-template-areas: 
+    'a a b c'
+    'd e f g'
+    'h i j k'
+    'l m n o'
+    'p q r r';
+    gap: 0.15rem;
+    padding: 0.15rem;
+}
+
+.numbercard button {
+
+    background-color: hsl(34, 8%, 63%);
+    color: #000;
+    padding: 2rem;
+    border-radius: 5px;
+    height: 100%;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    padding: 0.5rem;
+    border-color: transparent;
+    text-align: center;
+}
+
+.numbercard button:hover {
+    background-color: rgb(214, 206, 206);
+}
+
+#restart {
+    grid-area: a;
+}
+
+#delete {
+    grid-area: b;
+}
+
+#division {
+    grid-area: c;
+}
+
+#one {
+    grid-area: d;
+}
+
+#two {
+    grid-area: e;
+}
+
+#three {
+    grid-area: f;
+}
+
+#multiply {
+    grid-area: g;
+}
+
+#four {
+    grid-area: h;
+}
+
+#five {
+    grid-area: i;
+}
+
+#six {
+    grid-area: j;
+}
+
+#plus {
+    grid-area: k;
+}
+
+#seven {
+    grid-area: l;
+}
+
+#eight {
+    grid-area: m;
+}
+
+#nine {
+    grid-area: n;
+}
+
+#minus {
+    grid-area: o;
+}
+
+#dot {
+    grid-area: p;
+}
+
+#zero {
+    grid-area: q;
+}
+
+#equalto {
+    grid-area: r;
+}
